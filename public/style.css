@@ -184,6 +184,10 @@ a:hover {
   background: var(--color-primary);
 }
 
+img {
+  width: 100%;
+}
+
 /* Title style adjustments */
 .title-lg {
   color: var(--color-text-main);
