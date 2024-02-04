@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  mode: 'jit',
   purge: [ 'build/**/*.html' ],
 }
 

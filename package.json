@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "A simple blog, set up with Eleventy.",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "NODE_ENV=production eleventy"
+    "start": "postcss style.css > build/public/style.css && eleventy --serve",
+    "build": "NODE_ENV=production eleventy && NODE_ENV=production postcss style.css > build/public/style.css"
   },
   "dependencies": {
     "eleventy-plugin-seo": "0.5.2",
@@ -19,7 +19,7 @@
     "@11ty/eleventy": "^2.0.0"
   },
   "engines": {
-    "node": "14"
+    "node": "16"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
