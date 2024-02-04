@@ -2,11 +2,12 @@
 layout: layouts/home.njk
 ---
 
-<div class="">
+<div class="relative">
   <img src="https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00940.jpg?v=1704766660038" class="" alt="Eleventy!">
+  <h1 class="absolute bottom-0 bg-white/90 text-lg">
+    Naoto's Sweaters
+  </h1>
 </div>
-
-# Naoto's Sweaters
 
 Project by Naoto Hieda & Frog Edogawa
 
