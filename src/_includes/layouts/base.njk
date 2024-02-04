@@ -12,22 +12,26 @@
     {% seo "" %}
   </head>
   <body>
-  <main>
+  <main class="">
     
     {# Page or post content will appear here #}
   
+<div class="wrapper w-full flex flex-col items-center">
+  <div class="content max-w-screen-md">
     {{ content | safe }}
 
-      <footer class="footer bg-white">
-        <div class="links">
-          <a href="/">Home</a>
-          <span class="divider">|</span>
+    <footer class="footer">
+      <div class="links">
+        <a href="/">Home</a>
+        <span class="divider">|</span>
 <!--           <a href="/posts">Posts</a>
-          <span class="divider">|</span> -->
-          <a href="/about">About</a>
-        </div>
-      </footer>
-    
+        <span class="divider">|</span> -->
+        <a href="/about">About</a>
+      </div>
+    </footer>
+  </div>
+</div>
+
   </main>
    
   </body>
