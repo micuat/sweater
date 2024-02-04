@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /******************************************************************************
 START Glitch hello-app default styles
 
