@@ -1,6 +1,6 @@
 ---
 title: ♦️Sweater with Shapes
-description: You won't believe how easy it can be
+description: Blue, borders and shapes all in one
 date: 2023-12-02
 tags:
   - posts
