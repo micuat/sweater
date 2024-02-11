@@ -6,7 +6,17 @@ templateClass: tmpl-home
 {# This is the template for individual blog posts–it builds the front matter properties into the page #}
 
     {# The post front matter includes the title property #}
-    <h1 class='postTitle'>{{title}}</h1>
+<!--     <h1 class='postTitle'>{{title}}</h1> -->
+
+<div class="relative">
+  <img src="{{ image }}" class="relative" alt="">
+  <div class="absolute top-0 w-full h-full flex items-center">
+    <h1 class="text-blue-600 font-bold text-4xl" style="text-shadow: #fff 1px 0 3px;">
+    {{ title }}
+    </h1>
+  </div>
+</div>
+
 
     {# ADD P ELEMENT FROM TODO ON THE NEXT LINE #}
     
