@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "ApfelGrotezk Regular";
+  src: url("https://cdn.glitches.me/ApfelGrotezk-Regular.woff2") format("woff2"),
+    url("https://cdn.glitches.me/ApfelGrotezk-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ApfelGrotezk Fett";
+  src: url("https://cdn.glitches.me/ApfelGrotezk-Fett.woff2") format("woff2");
+}
+
 body {
+  font-family: "Helvetica Neue", arial, sans-serif;
   min-height: 100vh;
   background-image: linear-gradient(
     45deg,
@@ -12,6 +24,10 @@ body {
     green
   );
   color: white;
+}
+
+h1 {
+  font-family: "ApfelGrotezk Fett", arial, sans-serif;
 }
 
 a {

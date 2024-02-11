@@ -13,10 +13,10 @@ layout: layouts/home.njk
 
 Project by Naoto Hieda & Frog Edogawa
 
-The project started with a joke while I was shopping for clothes in Kyoto with Marie in December 2023. The day before traveling to Kyoto, I was supposed to go home to pack my luggage, but instead, I ended up hanging out with Iioana in Shinjuku and I stayed at a capsule hotel in Tokyo. I didn't have clothes to change, so when I arrived in Kyoto and joined Marie, who was already visiting there, we decided to go for shopping. We went to a few second hand stores but couldn't find anything appealing, and I said,
+The project started with a joke while I was shopping for clothes in Kyoto with Marie in December 2023. The day before traveling to Kyoto, I was supposed to go home to pack my luggage, but instead, I ended up hanging out with Iioana in Shinjuku and I stayed at a capsule hotel in Tokyo. I didn't have clothes to change, so when I arrived in Kyoto and joined Marie, who was already visiting there, we decided to go for shopping. We went to a few second hand stores but couldn't find anything appealing. I can find nice sweaters but they are not the priority (since I was traveling, I rather needed T-shirts and trousers) and I said,
 
 <blockquote class="ml-4">
-  If I were to wear only a piece of clothes, it would be a sweater (so I don't have to look for T-shirts and trousers)
+  If I were to wear only a piece of clothes, it would be a sweater.
 </blockquote>
 
 
