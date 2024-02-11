@@ -16,3 +16,8 @@ body {
 a {
   text-decoration: underline;
 }
+
+p {
+  color: white;
+  text-shadow: #000 1px 0 3px;
+}

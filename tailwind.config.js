@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [],
   // mode: 'jit',
-  purge: [ 'build/**/*.html' ],
+  purge: [ 'src/**/*.njk', 'src/**/*.md' ],
+  // purge: [ 'build/**/*.html' ],
 }
 
