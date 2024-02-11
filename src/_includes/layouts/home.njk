@@ -5,22 +5,24 @@ templateClass: tmpl-home
 
 {# The Home page uses this template–it extends the base template {{ post.data.page.date | htmlDateString }} — #}
 
-    {{ content | safe }}
+    <div class="mb-12">
+      {{ content | safe }}
+    </div>
 
-    <div>
-      <p>
+    <div class="mb-4">
+      <div>
         <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
-      </p>
-      <p>
+      </div>
+      <div>
         <strong>Concept and Model</strong>: <a href="https://naotohieda.com/" target="_blank">Naoto Hieda</a>
-      </p>
+      </div>
     </div>
 
     {# After the the content defined in index.md, list the blog posts in the collection #}
-    <ul>
+    <ul class="mb-4">
       {%- for post in collections.posts -%}
         <li{% if page.url == post.url %} aria-current="page"{% endif %}>
-          <p><a href='{{ post.url }}'>{{ post.data.title }}</a></p>
+          <a href='{{ post.url }}'>{{ post.data.title }}</a>
         </li>
       {%- endfor -%}
 <!--       <li><a href="/posts">View all posts</a></li> -->

@@ -22,29 +22,31 @@ templateClass: tmpl-home
     {# ADD P ELEMENT FROM TODO ON THE NEXT LINE #}
     
     {# Content from the body of the post markdown appears here #}
-    {{ content | safe }}
+    <div class="mb-12">
+      {{ content | safe }}
+    </div>
     
     <div class="my-4">
     {# The previous and next post data is added in .eleventy.js #}
     {% if prevPost.url %}
-      <p>
+      <div>
         <strong>Previous post</strong>: 
         <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
-      </p>
+      </div>
     {% endif %}
     {% if nextPost.url %}
-      <p>
+      <div>
         <strong>Next post</strong>: 
         <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-      </p>
+      </div>
     {% endif %}
     </div>
 
     <div class="my-4">
-      <p>
+      <div>
         <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
-      </p>
-      <p>
+      </div>
+      <div>
         <strong>Concept and Model</strong>: <a href="https://naotohieda.com/" target="_blank">Naoto Hieda</a>
-      </p>
+      </div>
     </div>

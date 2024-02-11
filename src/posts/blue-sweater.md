@@ -1,5 +1,5 @@
 ---
-title: Blue sweater
+title: Blue Sweater
 description: Add posts and your site build will publish them
 date: 2021-11-26
 tags:
