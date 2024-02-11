@@ -8,18 +8,20 @@ templateClass: tmpl-home
     {{ content | safe }}
 
     <div>
-      <div>
+      <p>
         <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
-      </div>
-      <div>
+      </p>
+      <p>
         <strong>Concept and Model</strong>: <a href="https://naotohieda.com/" target="_blank">Naoto Hieda</a>
-      </div>
+      </p>
     </div>
 
     {# After the the content defined in index.md, list the blog posts in the collection #}
     <ul>
       {%- for post in collections.posts -%}
-        <li{% if page.url == post.url %} aria-current="page"{% endif %}><a href='{{ post.url }}'>{{ post.data.title }}</a></li>
+        <li{% if page.url == post.url %} aria-current="page"{% endif %}>
+          <p><a href='{{ post.url }}'>{{ post.data.title }}</a></p>
+        </li>
       {%- endfor -%}
 <!--       <li><a href="/posts">View all posts</a></li> -->
     </ul>

@@ -17,17 +17,17 @@
     {# Page or post content will appear here #}
   
     <div class="wrapper w-full flex flex-col items-center">
-      <div class="content max-w-screen-md">
+      <div class="content max-w-screen-md bg-black/50">
         {{ content | safe }}
 
         <footer class="footer">
-          <div class="links">
+          <p class="links">
             <a href="/">Home</a>
             <span class="divider">|</span>
     <!--           <a href="/posts">Posts</a>
             <span class="divider">|</span> -->
             <a href="/about">About</a>
-          </div>
+          </p>
         </footer>
       </div>
     </div>
