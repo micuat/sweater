@@ -9,15 +9,9 @@ templateClass: tmpl-home
       {{ content | safe }}
     </div>
 
-    <div class="mb-4">
-      <div>
-        <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
-      </div>
-      <div>
-        <strong>Concept and Model</strong>: <a href="https://naotohieda.com/" target="_blank">Naoto Hieda</a>
-      </div>
+    <div class="font-bold">
+      Posts:
     </div>
-
     {# After the the content defined in index.md, list the blog posts in the collection #}
     <ul class="mb-4">
       {%- for post in collections.posts -%}
@@ -28,4 +22,12 @@ templateClass: tmpl-home
 <!--       <li><a href="/posts">View all posts</a></li> -->
     </ul>
 
+    <div class="mb-4">
+      <div>
+        <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
+      </div>
+      <div>
+        <strong>Concept and Model</strong>: <a href="https://naotohieda.com/" target="_blank">Naoto Hieda</a>
+      </div>
+    </div>
 

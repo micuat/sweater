@@ -1,5 +1,5 @@
 ---
-title: Sweater with Colorful Borders
+title: 💈Sweater with Colorful Borders
 description: Alter your site config
 date: 2023-05-20
 tags:
