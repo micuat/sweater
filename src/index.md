@@ -3,13 +3,21 @@ layout: layouts/home.njk
 ---
 
 <div class="relative">
-  <img src="https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00940.jpg?v=1704766660038" class="" alt="Eleventy!">
-  <h1 class="absolute bottom-0 text-white text-4xl" style="text-shadow: #000 1px 0 3px;">
+  <img src="https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00940.jpg?v=1704766660038" class="relative" alt="Eleventy!">
+  <div class="absolute top-0 w-full h-full flex items-center">
+    <h1 class="text-blue-600 font-bold text-4xl" style="text-shadow: #fff 1px 0 3px;">
     Naoto's Sweaters
-  </h1>
+    </h1>
+  </div>
 </div>
 
 Project by Naoto Hieda & Frog Edogawa
 
-Welcome to the Glitch [Eleventy](https://www.11ty.dev/) starter, where you can create a blog or landing page that generates a static site.
+The project started with a joke while I was shopping for clothes in Kyoto with Marie:
+
+<blockquote class="ml-4">
+  If I were to wear only a piece of clothes, it would be a sweater.
+</blockquote>
+
+
 
