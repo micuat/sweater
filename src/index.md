@@ -23,4 +23,4 @@ Coming back from the trip to Kyoto, I tried photoshooting at Ottonuma Park, a pa
 
 The photoshoot took place at Arakawa river in Tokyo, which is at a walking distance from the studio where we met.
 
-*If you want to exhibit the photos, please contact me (mail at naotohieda dot com) with some info. If we vibe, I can send you more samples as well as the NSFW version. Thanks!*
+*If you want to exhibit the photos, please contact me (mail at naotohieda dot com) with your info. If we vibe, I can send you more samples as well as the NSFW version. Thanks!*
