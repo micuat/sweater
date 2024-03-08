@@ -16,12 +16,15 @@
     
     {# Page or post content will appear here #}
   
-    <div class="w-full flex md:flex-nowrap flex-wrap flex-row-reverse justify-end md:justify-center items-start">
-<!--     <div class="w-full columns-1 sm:columns-2"> -->
-      <div class="md:max-w-screen-md mx-2 mb-2 bg-black/50">
+    <div class="container mx-auto grid
+                grid-rows-[300px_1fr] grid-cols-[200px_1fr] ">
+<!--     <div class="w-full flex md:flex-nowrap flex-wrap flex-row-reverse justify-end md:justify-center items-start"> -->
+      <div class="md:max-w-screen-mda mx-2 mb-2 bg-black/50
+                  col-start-2 col-span-2 row-span-1">
         {{ content | safe }}
       </div>
-      <div class="md:w-fit w-full mx-2 bg-black/50 space-y-2">
+      <div class="md:w-fit w-full mx-2 bg-black/50 space-y-2
+                  col-start-1 row-span-2">
         <footer class="">
           <div class="links">
             <a href="/">Home</a>
