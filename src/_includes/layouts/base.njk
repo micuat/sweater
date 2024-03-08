@@ -47,7 +47,7 @@
       </div>
 
       {% if layout != "layouts/home.njk" %}
-        <div class="w-full h-full
+        <div class="w-full md:h-full
                     text-blue-600 font-bold
                     text-2xl sm:text-4xl md:text-5xl lg:text-6xl
                     row-start-1
@@ -67,7 +67,7 @@
                   md:col-start-2 md:col-span-2">
         {{ content | safe }}
       </div>
-      <div class="md:w-fit w-full bg-black/50 space-y-2
+      <div class="md:w-fit w-full h-fit bg-black/50 space-y-2
                   sm:p-2
                   md:col-start-1 md:row-start-2">
         <footer class="">
@@ -94,7 +94,7 @@
       <div class="w-full bg-black/50
                   text-sm
                   sm:p-2
-                  md:col-start-1 md:col-span-3
+                  md:col-start-2 md:col-span-2
                   flex justify-between flex-col md:flex-row">
         <div>
           <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
