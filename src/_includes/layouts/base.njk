@@ -20,7 +20,9 @@
                 grid-cols-1
                 mb-4
                 md:grid-cols-[200px_1fr]
-                gap-2">
+                gap-2
+                md:text-lg lg:text-xl
+                leading-6 md:leading-7 lg:leading-8">
 <!--     <div class="w-full flex md:flex-nowrap flex-wrap flex-row-reverse justify-end md:justify-center items-start"> -->
 <!--       <div class="relative
                   col-start-1 row-start-1 col-span-2">
@@ -45,14 +47,19 @@
       </div>
 
       {% if layout != "layouts/home.njk" %}
-        <h1 class="absolute
-                   text-blue-600 font-bold text-2xl sm:text-4xl
-                   row-start-1
-                   z-10
-                   md:col-start-2"
+        <div class="h-full flex flex-row justify-end
+                    text-blue-600 font-bold
+                    text-2xl sm:text-4xl md:text-5xl lg:text-6xl
+                    row-start-1
+                    z-10
+                    absolute
+                    md:relative
+                    md:col-start-2"
             style="text-shadow: #fff 1px 0 3px;">
-          {{ title }}
-        </h1>
+          <h1 class="h-fit">
+            {{ title }}
+          </h1>
+        </div>
       {% endif %}
 
       <div class="bg-black/50
@@ -85,6 +92,7 @@
         </ul>
       </div>
       <div class="w-full bg-black/50
+                  text-sm
                   sm:p-2
                   md:col-start-1 md:col-span-3
                   flex justify-between flex-col md:flex-row">
