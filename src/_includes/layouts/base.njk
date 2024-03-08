@@ -16,15 +16,36 @@
     
     {# Page or post content will appear here #}
   
-    <div class="container mx-auto grid
-                grid-rows-[300px_1fr] grid-cols-[200px_1fr] ">
+    <div class="container mx-auto grid h-full
+                grid-cols-1
+                md:grid-cols-[200px_1fr]
+                gap-2">
 <!--     <div class="w-full flex md:flex-nowrap flex-wrap flex-row-reverse justify-end md:justify-center items-start"> -->
-      <div class="md:max-w-screen-mda mx-2 mb-2 bg-black/50
+<!--       <div class="relative
+                  col-start-1 row-start-1 col-span-2">
+        <img src="https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00940.jpg?v=1704766660038" class="relative" alt="naoto in blue sweater">
+        <div class="absolute top-0 w-full h-full flex items-center">
+          <h1 class="text-blue-600 font-bold text-2xl sm:text-4xl" style="text-shadow: #fff 1px 0 3px;">
+          Naoto's Sweaters
+          </h1>
+        </div>
+      </div> -->
+      <div class="relative
+                  md:col-start-1 md:row-start-1 md:col-span-2">
+        <img src="{{ image }}" class="relative" alt="header image, naoto posing">
+        <div class="absolute top-0 w-full h-full flex items-start">
+          <h1 class="text-blue-600 font-bold text-2xl sm:text-4xl" style="text-shadow: #fff 1px 0 3px;">
+      <!--     <h1 class="text-blue-600 font-bold text-4xl" style="text-shadow: #fff 1px 0 3px; max-width: 33%"> -->
+          {{ title }}
+          </h1>
+        </div>
+      </div>
+      <div class="md:max-w-screen-mda bg-black/50
                   col-start-2 col-span-2 row-span-1">
         {{ content | safe }}
       </div>
-      <div class="md:w-fit w-full mx-2 bg-black/50 space-y-2
-                  col-start-1 row-span-2">
+      <div class="md:w-fit w-full bg-black/50 space-y-2
+                  col-start-1 row-start-2 row-span-2">
         <footer class="">
           <div class="links">
             <a href="/">Home</a>

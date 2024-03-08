@@ -1,15 +1,8 @@
 ---
 layout: layouts/home.njk
+image: https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00940.jpg?v=1704766660038
+title: Naoto's Sweaters
 ---
-
-<div class="relative">
-  <img src="https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00940.jpg?v=1704766660038" class="relative" alt="naoto in blue sweater">
-  <div class="absolute top-0 w-full h-full flex items-center">
-    <h1 class="text-blue-600 font-bold text-2xl sm:text-4xl" style="text-shadow: #fff 1px 0 3px;">
-    Naoto's Sweaters
-    </h1>
-  </div>
-</div>
 
 Project by Naoto Hieda & Frog Edogawa
 
