@@ -16,13 +16,13 @@
     
     {# Page or post content will appear here #}
   
-    <div class="w-full flex lg:flex-nowrap flex-wrap flex-row-reverse justify-end lg:justify-center items-start">
+    <div class="w-full flex md:flex-nowrap flex-wrap flex-row-reverse justify-end md:justify-center items-start">
 <!--     <div class="w-full columns-1 sm:columns-2"> -->
-      <div class="lg:max-w-screen-md mx-2 mb-2 bg-black/50">
+      <div class="md:max-w-screen-md mx-2 mb-2 bg-black/50">
         {{ content | safe }}
       </div>
-      <div class="lg:w-fit w-full mx-2 bg-black/50">
-        <footer class="mb-4">
+      <div class="md:w-fit w-full mx-2 bg-black/50 space-y-2">
+        <footer class="">
           <div class="links">
             <a href="/">Home</a>
 <!--              <span class="divider">|</span> -->
@@ -34,7 +34,7 @@
           Posts:
         </div>
         {# After the the content defined in index.md, list the blog posts in the collection #}
-        <ul class="mb-4">
+        <ul class="">
           {%- for post in collections.posts -%}
             <li{% if page.url == post.url %} aria-current="page"{% endif %}>
               <a href='{{ post.url }}'>{{ post.data.title }}</a>
@@ -43,7 +43,7 @@
     <!--       <li><a href="/posts">View all posts</a></li> -->
         </ul>
 
-        <div class="mb-4">
+        <div class="">
           <div>
             <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
           </div>

@@ -26,27 +26,29 @@ templateClass: tmpl-home
       {{ content | safe }}
     </div>
     
-    <div class="my-4">
-    {# The previous and next post data is added in .eleventy.js #}
-    {% if prevPost.url %}
-      <div>
-        <strong>Previous post</strong>: 
-        <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+    <div class="space-y-2">
+      <div class="">
+      {# The previous and next post data is added in .eleventy.js #}
+      {% if prevPost.url %}
+        <div>
+          <strong>Previous post</strong>: 
+          <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+        </div>
+      {% endif %}
+      {% if nextPost.url %}
+        <div>
+          <strong>Next post</strong>: 
+          <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+        </div>
+      {% endif %}
       </div>
-    {% endif %}
-    {% if nextPost.url %}
-      <div>
-        <strong>Next post</strong>: 
-        <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-      </div>
-    {% endif %}
-    </div>
 
-    <div class="my-4">
-      <div>
-        <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
-      </div>
-      <div>
-        <strong>Concept and Model</strong>: <a href="https://naotohieda.com/" target="_blank">Naoto Hieda</a>
+      <div class="">
+        <div>
+          <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
+        </div>
+        <div>
+          <strong>Concept and Model</strong>: <a href="https://naotohieda.com/" target="_blank">Naoto Hieda</a>
+        </div>
       </div>
     </div>
