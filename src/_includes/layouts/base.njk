@@ -35,7 +35,7 @@
       </div> -->
       <div class="relative
                   md:col-start-1 md:row-start-1 md:col-span-3">
-        <img src="{{ image }}" class="relative" alt="header image, naoto posing">
+        <img src="{{ image }}" class="relative w-full" alt="header image, naoto posing">
           {% if layout == "layouts/home.njk" %}
             <div class="absolute top-0 w-full h-full flex items-center">
               <h1 class="text-blue-600 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl" style="text-shadow: #fff 1px 0 3px;">
@@ -47,16 +47,16 @@
       </div>
 
       {% if layout != "layouts/home.njk" %}
-        <div class="h-full flex flex-row justify-end
+        <div class="w-full h-full
                     text-blue-600 font-bold
                     text-2xl sm:text-4xl md:text-5xl lg:text-6xl
                     row-start-1
                     z-10
                     absolute
                     md:relative
-                    md:col-start-2"
+                    md:col-start-2 md:row-start-1 md:row-span-1"
             style="text-shadow: #fff 1px 0 3px;">
-          <h1 class="h-fit">
+          <h1 class="w-full h-fit absolute md:bottom-2">
             {{ title }}
           </h1>
         </div>
