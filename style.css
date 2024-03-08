@@ -37,8 +37,4 @@ h1 {
   a {
     @apply underline hover:bg-white hover:text-black;
   }
-
-  p {
-    @apply my-2;
-  }
 }
