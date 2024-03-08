@@ -30,10 +30,15 @@ h1 {
   font-family: "ApfelGrotezk Fett", arial, sans-serif;
 }
 
-a {
-  text-decoration: underline;
-}
+@layer base {
+  .content {
+    @apply mb-12 space-y-2;
+  }
+  a {
+    @apply underline hover:bg-white hover:text-black;
+  }
 
-p {
-  margin: 0.5rem 0;
+  p {
+    @apply my-2;
+  }
 }
