@@ -32,7 +32,7 @@
         </div>
       </div> -->
       <div class="relative
-                  md:col-start-1 md:row-start-1 md:col-span-2">
+                  md:col-start-1 md:row-start-1 md:col-span-3">
         <img src="{{ image }}" class="relative" alt="header image, naoto posing">
           {% if layout == "layouts/home.njk" %}
             <div class="absolute top-0 w-full h-full flex items-center">
@@ -40,16 +40,10 @@
               Naoto's Sweaters
               </h1>
             </div>
-          {% else %}
-            <div class="absolute top-0 w-full h-full flex items-start">
-              <h1 class="text-blue-600 font-bold text-2xl sm:text-4xl" style="text-shadow: #fff 1px 0 3px;">
-              {{ title }}
-              </h1>
-            </div>
           {% endif %}
 
       </div>
-      <div class="md:max-w-screen-mda bg-black/50
+      <div class="bg-black/50
                   sm:p-2
                   md:col-start-2 md:col-span-2">
         {{ content | safe }}
@@ -78,9 +72,10 @@
     <!--       <li><a href="/posts">View all posts</a></li> -->
         </ul>
       </div>
-      <div class="md:w-fit w-full bg-black/50
+      <div class="w-full bg-black/50
                   sm:p-2
-                  md:col-start-1 md:col-span-3">
+                  md:col-start-1 md:col-span-3
+                  flex justify-between flex-col md:flex-row">
         <div>
           <strong>Photos</strong>: <a href="https://froggohome.com/" target="_blank">Frog Edogawa</a><br />
         </div>

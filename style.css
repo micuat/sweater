@@ -32,9 +32,12 @@ h1 {
 
 @layer base {
   .content {
-    @apply mb-12 space-y-2;
+    @apply space-y-2;
   }
   a {
     @apply underline hover:bg-white hover:text-black;
+  }
+  blockquote {
+    @apply ml-4 italic;
   }
 }
