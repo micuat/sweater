@@ -16,7 +16,7 @@
     
     {# Page or post content will appear here #}
   
-    <div class="container mx-auto grid h-full
+    <div class="container relative mx-auto grid h-full
                 grid-cols-1
                 mb-4
                 md:grid-cols-[200px_1fr]
@@ -36,13 +36,25 @@
         <img src="{{ image }}" class="relative" alt="header image, naoto posing">
           {% if layout == "layouts/home.njk" %}
             <div class="absolute top-0 w-full h-full flex items-center">
-              <h1 class="text-blue-600 font-bold text-2xl sm:text-4xl" style="text-shadow: #fff 1px 0 3px;">
+              <h1 class="text-blue-600 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl" style="text-shadow: #fff 1px 0 3px;">
               Naoto's Sweaters
               </h1>
             </div>
           {% endif %}
 
       </div>
+
+      {% if layout != "layouts/home.njk" %}
+        <h1 class="absolute
+                   text-blue-600 font-bold text-2xl sm:text-4xl
+                   row-start-1
+                   z-10
+                   md:col-start-2"
+            style="text-shadow: #fff 1px 0 3px;">
+          {{ title }}
+        </h1>
+      {% endif %}
+
       <div class="bg-black/50
                   sm:p-2
                   md:col-start-2 md:col-span-2">
