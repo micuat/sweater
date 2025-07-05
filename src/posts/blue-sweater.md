@@ -5,7 +5,7 @@ date: 2021-11-26
 tags:
   - posts
 layout: layouts/post.njk
-image: https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00933.jpg?v=1704766653915
+image: /public/img//DSC00933.jpg
 ---
 
 It was bought (if I remember correctly) on November 26, 2021 at *2nd Street* in Tsukuba, Japan for around 10 bucks. *2nd Street* is a Japanese second-hand clothing chain and there is one of their stores around 500 meters from my parents' house in Tsukuba. Since I visited Japan in 2021, this store became my favorite (I also visited other *2nd Street* stores, but the ones especially in the center such as Tokyo and Kyoto are not as appealing as the one in Tsukuba).

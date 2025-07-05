@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-image: https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00940.jpg?v=1704766660038
+image: /public/img/DSC00940.jpg
 title: Naoto's Sweaters
 ---
 
